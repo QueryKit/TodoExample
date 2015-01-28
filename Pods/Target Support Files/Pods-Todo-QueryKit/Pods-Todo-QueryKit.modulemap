@@ -1,0 +1,6 @@
+framework module QueryKit {
+  umbrella header "Pods-Todo-QueryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

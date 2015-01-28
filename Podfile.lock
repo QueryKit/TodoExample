@@ -1,0 +1,33 @@
+PODS:
+  - KFData (1.0.3):
+    - KFData/Essentials (= 1.0.3)
+  - KFData/Attribute (1.0.3)
+  - KFData/Core (1.0.3)
+  - KFData/Essentials (1.0.3):
+    - KFData/Attribute
+    - KFData/Core
+    - KFData/Manager
+    - KFData/Store
+    - KFData/UI
+  - KFData/Manager (1.0.3)
+  - KFData/Store (1.0.3)
+  - KFData/UI (1.0.3):
+    - KFData/Attribute
+    - KFData/Core
+    - KFData/Manager
+    - KFData/Store
+  - QueryKit/Attribute/Swift (0.9.0)
+  - QueryKit/QuerySet/Swift (0.9.0)
+  - QueryKit/Swift (0.9.0):
+    - QueryKit/Attribute/Swift
+    - QueryKit/QuerySet/Swift
+
+DEPENDENCIES:
+  - KFData
+  - QueryKit/Swift
+
+SPEC CHECKSUMS:
+  KFData: 1f60bb9fa1f45e7e8d93e698ac1e8209abd4666f
+  QueryKit: ad56cab0844384831e8d09093fe6559073b5e2b1
+
+COCOAPODS: 0.36.0.beta.2
