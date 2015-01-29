@@ -16,18 +16,43 @@ PODS:
     - KFData/Core
     - KFData/Manager
     - KFData/Store
-  - QueryKit/Attribute/Swift (0.9.0)
-  - QueryKit/QuerySet/Swift (0.9.0)
-  - QueryKit/Swift (0.9.0):
+  - QueryKit (0.9.1):
+    - QueryKit/Attribute (= 0.9.1)
+    - QueryKit/ObjectiveC (= 0.9.1)
+    - QueryKit/QuerySet (= 0.9.1)
+    - QueryKit/Swift (= 0.9.1)
+  - QueryKit/Attribute (0.9.1):
+    - QueryKit/Attribute/Bridge (= 0.9.1)
+    - QueryKit/Attribute/ObjectiveC (= 0.9.1)
+    - QueryKit/Attribute/Swift (= 0.9.1)
+  - QueryKit/Attribute/Bridge (0.9.1):
+    - QueryKit/Attribute/ObjectiveC
+    - QueryKit/Attribute/Swift
+  - QueryKit/Attribute/ObjectiveC (0.9.1)
+  - QueryKit/Attribute/Swift (0.9.1):
+    - QueryKit/QuerySet/Swift
+  - QueryKit/ObjectiveC (0.9.1):
+    - QueryKit/Attribute/ObjectiveC
+    - QueryKit/QuerySet/ObjectiveC
+  - QueryKit/QuerySet (0.9.1):
+    - QueryKit/QuerySet/Bridge (= 0.9.1)
+    - QueryKit/QuerySet/ObjectiveC (= 0.9.1)
+    - QueryKit/QuerySet/Swift (= 0.9.1)
+  - QueryKit/QuerySet/Bridge (0.9.1):
+    - QueryKit/QuerySet/ObjectiveC
+    - QueryKit/QuerySet/Swift
+  - QueryKit/QuerySet/ObjectiveC (0.9.1)
+  - QueryKit/QuerySet/Swift (0.9.1)
+  - QueryKit/Swift (0.9.1):
     - QueryKit/Attribute/Swift
     - QueryKit/QuerySet/Swift
 
 DEPENDENCIES:
   - KFData
-  - QueryKit/Swift
+  - QueryKit
 
 SPEC CHECKSUMS:
   KFData: 1f60bb9fa1f45e7e8d93e698ac1e8209abd4666f
-  QueryKit: ad56cab0844384831e8d09093fe6559073b5e2b1
+  QueryKit: c2ded7784aa57d182a1998e06381633da178443d
 
 COCOAPODS: 0.36.0.beta.2
