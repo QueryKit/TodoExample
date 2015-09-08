@@ -8,7 +8,7 @@ import QueryKit
 class _Task: NSManagedObject {
 
     class func queryset(context:NSManagedObjectContext) -> QuerySet<Task> {
-        return QuerySet<Task>(context, entityName)
+        return QuerySet<Task>(context, "Task")
     }
 
     struct Attributes {
@@ -31,12 +31,8 @@ class _Task: NSManagedObject {
 
     // MARK: - Class methods
 
-    class var entityName:String {
-        return "Task"
-    }
-
     class func entity(managedObjectContext: NSManagedObjectContext) -> NSEntityDescription! {
-        return NSEntityDescription.entityForName(self.entityName, inManagedObjectContext: managedObjectContext)
+        return NSEntityDescription.entityForName("Task", inManagedObjectContext: managedObjectContext)
     }
 
     // MARK: - Life cycle methods
