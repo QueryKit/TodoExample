@@ -30,11 +30,11 @@ class TaskListViewController: KFDataTableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    dataStore = KFDataStore.standardLocalDataStore(nil)
+    dataStore = try! KFDataStore.standardLocalDataStore()
     let context = dataStore.managedObjectContext()
-    querySet = Task.queryset(context).orderBy(Task.attributes.createdAt.descending())
+    querySet = Task.queryset(context).orderBy { $0.createdAt.descending() }
 
-    if let count = querySet.count() {
+    if let count = try? querySet.count() {
       if count == 0 {
         createTask("Hit add to create your first task.")
       }
@@ -42,24 +42,24 @@ class TaskListViewController: KFDataTableViewController {
   }
 
   func createTask(name:String) {
-    let task = Task(managedObjectContext: context)
+    let task = Task.create(context!)
     task.name = name
     task.createdAt = NSDate()
-    context?.save(nil)
+    try! context?.save()
   }
 
   // MARK: UITableViewDataSource
 
   override func tableView(tableView: UITableView!, cellForManagedObject managedObject: NSManagedObject!, atIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-    let task = managedObject as Task
-    let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell
+    let task = managedObject as! Task
+    let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell!
     cell.textLabel?.text = task.name
     cell.accessoryType = task.complete!.boolValue ? .Checkmark : .None
     return cell
   }
 
   override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    let task = dataSource.objectAtIndexPath(indexPath) as Task
+    let task = dataSource.objectAtIndexPath(indexPath) as! Task
     task.complete = !task.complete!.boolValue
   }
 
@@ -70,8 +70,10 @@ class TaskListViewController: KFDataTableViewController {
     alertController.addTextFieldWithConfigurationHandler { textField in }
     alertController.addAction(UIAlertAction(title: "Add", style: .Default) { _ in
       let textField = alertController.textFields![0] as UITextField
-      if !textField.text.isEmpty {
-        self.createTask(textField.text)
+      if let text = textField.text {
+        if !text.isEmpty {
+          self.createTask(text)
+        }
       }
     })
     alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
