@@ -5,7 +5,7 @@ QueryKit Todo Example
 
 This application is a really simple example using
 [QueryKit](https://github.com/QueryKit/QueryKit) and
-[querykit-cli]((https://github.com/QueryKit/QueryKit).
+[querykit-cli](https://github.com/QueryKit/querykit-cli).
 
 <img alt="Screenshot of the QueryKit example Todo applocation"src="Screenshot.png" width=375 height=667 />
 
