@@ -32,7 +32,7 @@ class TaskListViewController: KFDataTableViewController {
 
     dataStore = try! KFDataStore.standardLocalDataStore()
     let context = dataStore.managedObjectContext()
-    querySet = Task.queryset(context).orderBy(Task.attributes.createdAt.descending())
+    querySet = Task.queryset(context).orderBy { $0.createdAt.descending() }
 
     if let count = try? querySet.count() {
       if count == 0 {
@@ -42,7 +42,7 @@ class TaskListViewController: KFDataTableViewController {
   }
 
   func createTask(name:String) {
-    let task = Task(managedObjectContext: context)
+    let task = Task.create(context!)
     task.name = name
     task.createdAt = NSDate()
     try! context?.save()

@@ -8,44 +8,23 @@ PODS:
     - KFData/Core
     - KFData/Manager
     - KFData/Store
-  - QueryKit (0.11.0-beta.1):
-    - QueryKit/Attribute (= 0.11.0-beta.1)
-    - QueryKit/ObjectiveC (= 0.11.0-beta.1)
-    - QueryKit/QuerySet (= 0.11.0-beta.1)
-    - QueryKit/Swift (= 0.11.0-beta.1)
-  - QueryKit/Attribute (0.11.0-beta.1):
-    - QueryKit/Attribute/Bridge (= 0.11.0-beta.1)
-    - QueryKit/Attribute/ObjectiveC (= 0.11.0-beta.1)
-    - QueryKit/Attribute/Swift (= 0.11.0-beta.1)
-  - QueryKit/Attribute/Bridge (0.11.0-beta.1):
-    - QueryKit/Attribute/ObjectiveC
-    - QueryKit/Attribute/Swift
-  - QueryKit/Attribute/ObjectiveC (0.11.0-beta.1)
-  - QueryKit/Attribute/Swift (0.11.0-beta.1):
-    - QueryKit/QuerySet/Swift
-  - QueryKit/ObjectiveC (0.11.0-beta.1):
-    - QueryKit/Attribute/ObjectiveC
-    - QueryKit/QuerySet/ObjectiveC
-  - QueryKit/QuerySet (0.11.0-beta.1):
-    - QueryKit/QuerySet/Bridge (= 0.11.0-beta.1)
-    - QueryKit/QuerySet/ObjectiveC (= 0.11.0-beta.1)
-    - QueryKit/QuerySet/Swift (= 0.11.0-beta.1)
-  - QueryKit/QuerySet/Bridge (0.11.0-beta.1):
-    - QueryKit/QuerySet/ObjectiveC
-    - QueryKit/QuerySet/Swift
-  - QueryKit/QuerySet/ObjectiveC (0.11.0-beta.1)
-  - QueryKit/QuerySet/Swift (0.11.0-beta.1)
-  - QueryKit/Swift (0.11.0-beta.1):
-    - QueryKit/Attribute/Swift
-    - QueryKit/QuerySet/Swift
+  - QueryKit (0.11.0-beta.4):
+    - QueryKit/Bridge (= 0.11.0-beta.4)
+    - QueryKit/ObjectiveC (= 0.11.0-beta.4)
+    - QueryKit/Swift (= 0.11.0-beta.4)
+  - QueryKit/Bridge (0.11.0-beta.4):
+    - QueryKit/ObjectiveC
+    - QueryKit/Swift
+  - QueryKit/ObjectiveC (0.11.0-beta.4)
+  - QueryKit/Swift (0.11.0-beta.4)
 
 DEPENDENCIES:
   - KFData/Store
   - KFData/UI
-  - QueryKit (= 0.11.0-beta.1)
+  - QueryKit (= 0.11.0-beta.4)
 
 SPEC CHECKSUMS:
   KFData: 1f60bb9fa1f45e7e8d93e698ac1e8209abd4666f
-  QueryKit: f61e84faac3b4cf1345ee06ecf1920932629b10a
+  QueryKit: 412008c93ef4016ac749f2280ef9dc889824fb96
 
 COCOAPODS: 0.39.0.beta.4

@@ -7,148 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001992C6F48F8C1CA45843EEA50019F2 /* QKAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE998C01C290240DDCBD2B1D3F808635 /* QKAttribute.m */; };
-		085128B95CC74EB45D1A0D527CF16F1B /* QKAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775DDF196A66AD48990954E31B31DD8 /* QKAttribute.swift */; };
-		2097337DFAFFECC2EC3180D78BD1AD43 /* KFDataUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C34314E85A6DD2438250B0862995AA /* KFDataUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2656A9CF84850E32A538F732538096E6 /* QKAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1563ECD9BF3D6153B93082E492F65A0A /* QKAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29F70FB82BAF934E0E8A7C2085591BE7 /* QueryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 600F3836B88ED7EBE46E659A1F1937D9 /* QueryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD50C3EFA6AF5B5ACF48FC262FDD78B /* KFDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787B8AAA62FE21F519013E4C4D52F15F /* KFDataCollectionViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3D996C99E6E278774B7CA9FD83A8629D /* KFAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF2F17F07C23AE03ACCCC49A419C858 /* KFAttribute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		422A201ECA42EC943F7DB5CA69722B25 /* KFDataCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2499BADA10B6BF0BD8875567F23FDD10 /* KFDataCollectionViewDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4C545C646DB0A5D0F3B0D9B8900107FE /* KFData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A2E792D1EF55BBD16DBE0F460F83EB /* KFData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D0E1790F50CA760C741FC7E74FFB12D /* KFDataStoreInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F6EAC3384BBFC1BC2CFF1F3FEA604F /* KFDataStoreInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4F0B25DB69E48B48874FA93F65B99092 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B3CF111870BFC8317A59DC56D6A3E /* Expression.swift */; };
-		4FAEB0E8C4E67C83E8305FEFF2A3784F /* QueryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C961AF659409F59CBC8BA8F86B4D72 /* QueryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		560E52224DAAE26517849B83C71CF2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83408B47438BDCBD3077C37B671086CA /* Foundation.framework */; };
-		5718811C85681F6024B0F55A4BFE5CF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83408B47438BDCBD3077C37B671086CA /* Foundation.framework */; };
+		0542174FDDF8F6EA81DB805A7AEB6DAC /* QuerySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E525D73A3D3FA8FCFA0092150E8C0 /* QuerySet.swift */; };
+		06DF92283E858F046DE5103DAB308F24 /* KFDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6380114A73791EC47CCD3628172072 /* KFDataStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11BAC80CEA2448046C65B021A5441C63 /* QKQuerySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFF60CCB8F67F5D2F60C75451E80A65 /* QKQuerySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15DBE985F65939F5B63BE7504ED82C54 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3303E73DE111BA42CBE1AEC8C95A3C2 /* Attribute.swift */; };
+		18DB3FC0FCA036C8B5EF72914EB77A45 /* QKAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A06F4D76F98651C264791F054F1A210B /* QKAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7E8B5665062D45D5574D8F0EB756B1 /* KFDataCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEAB169A04305ED4DC4BFE98AEC6CCD /* KFDataCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B6173E14A934BAA8CAE2851B65B0CC1 /* KFDataTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9377A40A76AB12704DE06C93E1553D /* KFDataTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DEEA4689782964CD8CB96429185E904 /* KFData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD643CE0FD7A04F57DCF1E0FE1F8EB9 /* KFData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E283C6DC394A89268ED6278D124FF9D /* KFObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9586C4CAAA6680C44AAB763B53C200 /* KFObjectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F73CC2613B43ACB8FC78DC2424168B0 /* NSManagedObjectContext+KFData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C08BE1E3A6D7F52B0FFBEF720303EF /* NSManagedObjectContext+KFData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		249818C4C93A5C8A8C120FA4CD550171 /* KFData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A765795A86664741551CA27826E604 /* KFData-dummy.m */; };
+		24BFC16D724DEE8BE91457C3B9B48E65 /* QKAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F883EAC98E14D7F95DCBDDE01BA659 /* QKAttribute.m */; };
+		277286084CE25B57D1F89E65B1F66DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05237738F16E0BE22E558871158AA68D /* Foundation.framework */; };
+		2BA95EBE9D59D7419923248E4415C7E7 /* KFDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D544821955CF021E79709AAFA8D60F /* KFDataTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31559480BD6644C81557399A9A726100 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D1CD212EF83B839B8FA439777E88C1 /* CoreData.framework */; };
+		32C523CF3AB63A200EC14111B687EACB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F9E016EE055F6CA5D36FC15310687 /* Expression.swift */; };
+		411FA43EAB66320A1AF0751A0C926255 /* KFDataSearchTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7642D0350A38D59A20C3A03A3956A8A4 /* KFDataSearchTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4702D3C2DCF07866121A32DF673D2263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5D8AB146BD37E5F18D3FA817923350 /* UIKit.framework */; };
+		4AF2B2B8D41E6B6B7ADC2EBA74F73EE1 /* NSManagedObjectContext+KFData.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A0425C03D8EFAC26FB014531317992 /* NSManagedObjectContext+KFData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE53A4ED69792E47920F61F79D6FAEC /* QueryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C42B75E57AF28486B20E8FD23B40F51 /* QueryKit-dummy.m */; };
+		5718811C85681F6024B0F55A4BFE5CF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05237738F16E0BE22E558871158AA68D /* Foundation.framework */; };
+		5AC09DB5BB5FCCF6DB818887512C51AD /* QKQuerySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F9A56C43447052D300C28427C0F7A3 /* QKQuerySet.m */; };
+		5C290A65A2E0C5BCCCA2DD18607C0180 /* QueryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E34681E33DE7A19BB043D4752185F0 /* QueryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CBAEF688883063DC3975C42787ECD5B /* Pods-Todo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825538ED5EE22A6FB0AFA67ED8E450B1 /* Pods-Todo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ED7CD667F1FB5E43247AE9B419F3A4A /* QKQuerySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F471A3DF0FAC519747232952AE62F17 /* QKQuerySet.swift */; };
-		71F74E01F96C021473B061C7A192DC3B /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCC9279AA3C746F0873F8E8D2D2F63 /* Predicate.swift */; };
-		7205F678E36FFDF6A2C66392EFD23D36 /* KFDataSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC664373FDC07814A245E17048EA87BE /* KFDataSearchTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6822839A473617B89A96E96F14880528 /* SortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78BF684C33E988EE064A3A34A05FA08 /* SortDescriptor.swift */; };
+		7001B8D22C72B38F15A10DF3F92A811E /* KFDataCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F33B15FD62FECA664C0AB72158EB92 /* KFDataCollectionViewDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		738C039622DD178624CB76B72DD6F8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05237738F16E0BE22E558871158AA68D /* Foundation.framework */; };
 		7455BAFA0BD7EBA2586D0DA04D71964D /* Pods-Todo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F541CF89911E9A6E2F2BBDA64B202613 /* Pods-Todo-dummy.m */; };
-		7E1C90BB80BDC58A0ECC92437F4AFA8F /* NSManagedObjectContext+KFData.m in Sources */ = {isa = PBXBuildFile; fileRef = E5112C09DD16B98D1ACCA4CE74887949 /* NSManagedObjectContext+KFData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		86999F96E9920CA9695BA5C58BD8D4EF /* KFObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DBF148D9D8B4D6E6E92B7DE20A5BD /* KFObjectManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8E3BD96CAD5B3C7FF418464A184FA560 /* QuerySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48E5FCC0BA6B05FB80E6A7153B1853 /* QuerySet.swift */; };
-		9A2443766DC5012FC7BB0D43F3A1B6AA /* KFDataTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AFD736646C87EE7A199A389889A827 /* KFDataTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C24F3ED1A579875BA16895CFBBE7772 /* KFDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF6761114D594FC30BB6E2D665B2D00 /* KFDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D24E1D42E38F6CC6B2A56E847F19D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83408B47438BDCBD3077C37B671086CA /* Foundation.framework */; };
-		A075A50C41D38528951346E50F48E46B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720EBCA47221200BFEAF440B8F071ED6 /* CoreData.framework */; };
-		A10ECD57E5F9D1B35C6B11121C9D53F7 /* QueryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF25CFF0B9086F2DCB82462EDAB324B /* QueryKit-dummy.m */; };
-		A182E4FFE77C493A70B8541ABECF1A4C /* QKQuerySet.h in Headers */ = {isa = PBXBuildFile; fileRef = E5CBC03FC3C955CD05590C632EBDB835 /* QKQuerySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8E485FDE36992979381F911A7023A9A /* KFObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 584C0B58AA0ECDF13305AF9A88200BB0 /* KFObjectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB47DD1CE4E88C301B9D3D93DEF19D0E /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79FE26BE272D7D95F5BE2B2037E969 /* Attribute.swift */; };
-		ABE731FA27766A5F3478F5D48DEC887C /* KFDataDualStackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A4477754689C26D060DFCEC869ED1C /* KFDataDualStackStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B85BF1D830EB326818A452FFBB6130ED /* NSManagedObject+KFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4116035B7B39784BE924779C79FCD /* NSManagedObject+KFDataManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B9E1E080262D309A8B4AD25480F74A40 /* KFDataCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAAE517A6FF64B1D9F3449A9E82E36B /* KFDataCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD1AAB64E5480557471C8138454F7E4F /* KFData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59E2CCD5720BE16C5C58F77F493618 /* KFData-dummy.m */; };
-		C04458A960C90CECC3A76CC3471F558B /* KFDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35193ED63FEDDB2DEF1D3236ADC58C0C /* KFDataTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1A69BD3E8723E9D91EF9A7B814AC876 /* KFDataSearchTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D60CE2AE2BF368625A9706FC7276F0A /* KFDataSearchTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7E9B79E7BD0975BC9BB14D68348B1B2 /* KFDataSingleStackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4178F4B64635F73E0BBC7FABFE1E7584 /* KFDataSingleStackStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DBAA12F41CA955F53DE36CF67F2DE025 /* KFDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5068A0C6BBB661EBB368EB10D1D62707 /* KFDataTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DBAA861DE5EE8FFE592AA60C58E0CB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D24B3E54EB98B7E91879AEF66886BC /* UIKit.framework */; };
-		EACB5E437F6845A2F34CA8B19E478706 /* KFDataCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB43E1847C9EC12E5272F74278D2B16 /* KFDataCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB333F2B5010B7E0C983F1DECEB95E6A /* KFDataTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E08889C4D1D8B18AFD207EC18756E /* KFDataTableViewDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F20EFC3637CCB465F320F211CB4A8826 /* KFData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623164760BB9ECCFAD2B77AA1771212F /* KFData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5A0AFC924E71359B6FD95CE64F91C2A /* NSManagedObject+KFDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B5262FB0BAAF1EEFB7D68C4FD89EDB /* NSManagedObject+KFDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9B097E299202C561D12AFD42EBE35D5 /* QKQuerySet.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DF3613388CEB982967441A3A277B31 /* QKQuerySet.m */; };
-		F9E0664BDAC0A6273A77D341C66A8B01 /* KFDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1A362226F473DE98A68B575F5D82B /* KFDataStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FC615D4F5D3BA3F7F0BA2072245233B1 /* NSManagedObjectContext+KFData.h in Headers */ = {isa = PBXBuildFile; fileRef = 970E163F4DFAD6D8725E0D9652248582 /* NSManagedObjectContext+KFData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD245A43483165D83A069F05A5340916 /* KFAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7984268CE8FBF17F2C09AFD025A7B8C8 /* KFAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ECA0EA4D8669AFC7760137F9D60FAEE /* QKAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519C7078CD31D1860569C7DB7DA8C80 /* QKAttribute.swift */; };
+		8A3BA08C9FE59AAB8516C6F6BF3BE19A /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8168D5888ED837E27428C0BEB1DEE138 /* Predicate.swift */; };
+		8B0C583AA51C289445F4FB69FB33C034 /* KFDataSingleStackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD82F311AED3F1AEDE6517F5D8D014 /* KFDataSingleStackStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CC9D1E7E6AB70F8D78D805D890725B6 /* KFDataSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8EE879AB04E14B5FC3A4EDCD4B7114 /* KFDataSearchTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BFE42B12FB627F85F445511B253D637 /* KFDataDualStackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F876451A0153D5738CD4AE086357D2B /* KFDataDualStackStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C27CC88DF7C9C9653D1AD4FAF37284D /* KFDataCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A93CE79015133BFB92288CB853FD025 /* KFDataCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8550C7D643AAB26CFDE11091DB3EB6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D1CD212EF83B839B8FA439777E88C1 /* CoreData.framework */; };
+		A85924382B64115CCBEDC69DDC728886 /* KFAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB100F913075BBD6B10C4AD32985A40 /* KFAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB2A848D2BAF050ED9497E98C98F56A /* KFObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC4B506C5193823EFD30CAE6AF0BA9 /* KFObjectManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF3760290C1F74173CD946E1D2482088 /* KFDataTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F0C8B585ED60899E00799A74B1272 /* KFDataTableViewDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C31CB9E3703350A55639AF5D26B6DEB7 /* NSManagedObject+KFDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA7304492BFA62F48EE50CE4903D137 /* NSManagedObject+KFDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA82E454AD7D07C94476F8BE825AF362 /* KFDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F70B5A992CCD4B4540532A554EE5E /* KFDataCollectionViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDE1459AAC00FFD0F502FF54EBA100D1 /* KFDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727BE7A8055DAD0C25F0CA178F1260A3 /* KFDataTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6A98667A909632BCE8FE404DC8AF87 /* QKQuerySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3695A25151EE76CFF30DE2B2E99D6 /* QKQuerySet.swift */; };
+		D135CEE9A04D50440A09900B68319564 /* QueryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB14E0FCBEC4A58A74709FA8CDF0F97 /* QueryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E6FE5F7B74D7122EF6932A739C91EC /* KFAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0C8C0E0D44457E1ADDFC0180CF726 /* KFAttribute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D626855149068FA0A26E7EAB514D0CE4 /* KFData.h in Headers */ = {isa = PBXBuildFile; fileRef = BA87076C3C78E3BEB712AE04D7FEB84D /* KFData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFCECC6E9B969E33932946E676EAEE2B /* NSManagedObject+KFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F3003833A0AF5DC21B8C4A8F2944B /* NSManagedObject+KFDataManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFEB43A8B6E12BAA7AA7BAA0B6A1F014 /* KFDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F040741D46094BCD52977F9AD0200D /* KFDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F481F14980FF37C2F1002C0D8011D2C2 /* KFDataStoreInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8907BD584CC8BAA77FF0350DCC4F4CA9 /* KFDataStoreInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F95A23B105B7FE033F7E24FF889EFAEC /* KFDataUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B7DD9A0B4C6AF18A8AB9E0324D33E6 /* KFDataUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		994E909F0F3AD777F2C183A7B1E38A3A /* PBXContainerItemProxy */ = {
+		4FB9DA6BF7BD63BF1A3253699B128158 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A72E6978FF42E92921FCA48B46D84EEC;
+			remoteGlobalIDString = 1C71A7DCFCE53DE730223C76D5338D13;
 			remoteInfo = QueryKit;
 		};
-		EA804738001249E955BF1358CAD7C86B /* PBXContainerItemProxy */ = {
+		785E115A8F906C86B6A3C9B878FF5BCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B5C0F00A97DD144815B8122C4C01990;
+			remoteGlobalIDString = C70C3A4ED9E0D9F5CDD01EDF5ED43378;
 			remoteInfo = KFData;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02AFD736646C87EE7A199A389889A827 /* KFDataTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataTableViewDataSource.h; path = KFData/UI/KFDataTableViewDataSource.h; sourceTree = "<group>"; };
-		0775DDF196A66AD48990954E31B31DD8 /* QKAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKAttribute.swift; path = QueryKit/ObjectiveC/QKAttribute.swift; sourceTree = "<group>"; };
+		0519C7078CD31D1860569C7DB7DA8C80 /* QKAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKAttribute.swift; path = QueryKit/ObjectiveC/QKAttribute.swift; sourceTree = "<group>"; };
+		05237738F16E0BE22E558871158AA68D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0AF277CFA289ECC8027613F7EEFAA0CF /* Pods-Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todo.release.xcconfig"; sourceTree = "<group>"; };
-		14B5262FB0BAAF1EEFB7D68C4FD89EDB /* NSManagedObject+KFDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+KFDataManager.h"; path = "KFData/Manager/NSManagedObject+KFDataManager.h"; sourceTree = "<group>"; };
-		1563ECD9BF3D6153B93082E492F65A0A /* QKAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QKAttribute.h; path = QueryKit/ObjectiveC/QKAttribute.h; sourceTree = "<group>"; };
-		2121CEDA9C1253DA5EB96F6D65193EE8 /* KFData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2499BADA10B6BF0BD8875567F23FDD10 /* KFDataCollectionViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataCollectionViewDataSource.m; path = KFData/UI/KFDataCollectionViewDataSource.m; sourceTree = "<group>"; };
+		0DD643CE0FD7A04F57DCF1E0FE1F8EB9 /* KFData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFData-umbrella.h"; sourceTree = "<group>"; };
+		12F33B15FD62FECA664C0AB72158EB92 /* KFDataCollectionViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataCollectionViewDataSource.m; path = KFData/UI/KFDataCollectionViewDataSource.m; sourceTree = "<group>"; };
+		24A0C8C0E0D44457E1ADDFC0180CF726 /* KFAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFAttribute.m; path = KFData/Attribute/KFAttribute.m; sourceTree = "<group>"; };
 		2AD5009082A38F2741FC265246E7C593 /* Pods-Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todo.debug.xcconfig"; sourceTree = "<group>"; };
-		2EB43E1847C9EC12E5272F74278D2B16 /* KFDataCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataCollectionViewController.h; path = KFData/UI/KFDataCollectionViewController.h; sourceTree = "<group>"; };
-		35193ED63FEDDB2DEF1D3236ADC58C0C /* KFDataTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataTableViewController.h; path = KFData/UI/KFDataTableViewController.h; sourceTree = "<group>"; };
-		38C34314E85A6DD2438250B0862995AA /* KFDataUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataUI.h; path = KFData/UI/KFDataUI.h; sourceTree = "<group>"; };
+		2BB14E0FCBEC4A58A74709FA8CDF0F97 /* QueryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QueryKit-umbrella.h"; sourceTree = "<group>"; };
+		2F9377A40A76AB12704DE06C93E1553D /* KFDataTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataTableViewDataSource.h; path = KFData/UI/KFDataTableViewDataSource.h; sourceTree = "<group>"; };
+		32E34681E33DE7A19BB043D4752185F0 /* QueryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryKit.h; path = QueryKit/QueryKit.h; sourceTree = "<group>"; };
 		3B486156878E1F64A05915DDF1F71221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4178F4B64635F73E0BBC7FABFE1E7584 /* KFDataSingleStackStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataSingleStackStore.m; path = KFData/Store/KFDataSingleStackStore.m; sourceTree = "<group>"; };
-		4DAAE517A6FF64B1D9F3449A9E82E36B /* KFDataCollectionViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataCollectionViewDataSource.h; path = KFData/UI/KFDataCollectionViewDataSource.h; sourceTree = "<group>"; };
-		5068A0C6BBB661EBB368EB10D1D62707 /* KFDataTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataTableViewController.m; path = KFData/UI/KFDataTableViewController.m; sourceTree = "<group>"; };
+		4A93CE79015133BFB92288CB853FD025 /* KFDataCollectionViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataCollectionViewDataSource.h; path = KFData/UI/KFDataCollectionViewDataSource.h; sourceTree = "<group>"; };
+		4C42B75E57AF28486B20E8FD23B40F51 /* QueryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QueryKit-dummy.m"; sourceTree = "<group>"; };
+		52A0425C03D8EFAC26FB014531317992 /* NSManagedObjectContext+KFData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+KFData.h"; path = "KFData/Core/NSManagedObjectContext+KFData.h"; sourceTree = "<group>"; };
 		55B18D45D67B97EB7BE721E332BF9DE4 /* KFData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFData-prefix.pch"; sourceTree = "<group>"; };
-		56304100D3E3E6B63F50E030F643D46C /* QueryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QueryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56ECD3A24888781325134B59368632F0 /* QueryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QueryKit-prefix.pch"; sourceTree = "<group>"; };
-		584C0B58AA0ECDF13305AF9A88200BB0 /* KFObjectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFObjectManager.h; path = KFData/Manager/KFObjectManager.h; sourceTree = "<group>"; };
-		5D7E08889C4D1D8B18AFD207EC18756E /* KFDataTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataTableViewDataSource.m; path = KFData/UI/KFDataTableViewDataSource.m; sourceTree = "<group>"; };
-		5F471A3DF0FAC519747232952AE62F17 /* QKQuerySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKQuerySet.swift; path = QueryKit/ObjectiveC/QKQuerySet.swift; sourceTree = "<group>"; };
-		600F3836B88ED7EBE46E659A1F1937D9 /* QueryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QueryKit-umbrella.h"; sourceTree = "<group>"; };
+		574E525D73A3D3FA8FCFA0092150E8C0 /* QuerySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuerySet.swift; path = QueryKit/QuerySet.swift; sourceTree = "<group>"; };
+		5B8F0C8B585ED60899E00799A74B1272 /* KFDataTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataTableViewDataSource.m; path = KFData/UI/KFDataTableViewDataSource.m; sourceTree = "<group>"; };
+		5D6F70B5A992CCD4B4540532A554EE5E /* KFDataCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataCollectionViewController.m; path = KFData/UI/KFDataCollectionViewController.m; sourceTree = "<group>"; };
+		5F8EE879AB04E14B5FC3A4EDCD4B7114 /* KFDataSearchTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataSearchTableViewController.m; path = KFData/UI/KFDataSearchTableViewController.m; sourceTree = "<group>"; };
 		61A52CA75F359E186BBC41EC2A80EDFD /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		623164760BB9ECCFAD2B77AA1771212F /* KFData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFData-umbrella.h"; sourceTree = "<group>"; };
-		67E4116035B7B39784BE924779C79FCD /* NSManagedObject+KFDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+KFDataManager.m"; path = "KFData/Manager/NSManagedObject+KFDataManager.m"; sourceTree = "<group>"; };
-		720EBCA47221200BFEAF440B8F071ED6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		787B8AAA62FE21F519013E4C4D52F15F /* KFDataCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataCollectionViewController.m; path = KFData/UI/KFDataCollectionViewController.m; sourceTree = "<group>"; };
-		7984268CE8FBF17F2C09AFD025A7B8C8 /* KFAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFAttribute.h; path = KFData/Attribute/KFAttribute.h; sourceTree = "<group>"; };
-		7C48E5FCC0BA6B05FB80E6A7153B1853 /* QuerySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuerySet.swift; path = QueryKit/QuerySet.swift; sourceTree = "<group>"; };
-		7EFCC9279AA3C746F0873F8E8D2D2F63 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = QueryKit/Predicate.swift; sourceTree = "<group>"; };
+		62B7DD9A0B4C6AF18A8AB9E0324D33E6 /* KFDataUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataUI.h; path = KFData/UI/KFDataUI.h; sourceTree = "<group>"; };
+		64D1CD212EF83B839B8FA439777E88C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		6BA7304492BFA62F48EE50CE4903D137 /* NSManagedObject+KFDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+KFDataManager.h"; path = "KFData/Manager/NSManagedObject+KFDataManager.h"; sourceTree = "<group>"; };
+		6F876451A0153D5738CD4AE086357D2B /* KFDataDualStackStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataDualStackStore.m; path = KFData/Store/KFDataDualStackStore.m; sourceTree = "<group>"; };
+		727BE7A8055DAD0C25F0CA178F1260A3 /* KFDataTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataTableViewController.h; path = KFData/UI/KFDataTableViewController.h; sourceTree = "<group>"; };
+		7642D0350A38D59A20C3A03A3956A8A4 /* KFDataSearchTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataSearchTableViewController.h; path = KFData/UI/KFDataSearchTableViewController.h; sourceTree = "<group>"; };
+		79A6305BC43526E91FDC3B5275F40936 /* QueryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QueryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF60CCB8F67F5D2F60C75451E80A65 /* QKQuerySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QKQuerySet.h; path = QueryKit/ObjectiveC/QKQuerySet.h; sourceTree = "<group>"; };
+		7C5C0F28DEFA753F59C1B85C8129B938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8168D5888ED837E27428C0BEB1DEE138 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = QueryKit/Predicate.swift; sourceTree = "<group>"; };
 		825538ED5EE22A6FB0AFA67ED8E450B1 /* Pods-Todo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todo-umbrella.h"; sourceTree = "<group>"; };
-		83408B47438BDCBD3077C37B671086CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8D60CE2AE2BF368625A9706FC7276F0A /* KFDataSearchTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataSearchTableViewController.h; path = KFData/UI/KFDataSearchTableViewController.h; sourceTree = "<group>"; };
-		970E163F4DFAD6D8725E0D9652248582 /* NSManagedObjectContext+KFData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+KFData.h"; path = "KFData/Core/NSManagedObjectContext+KFData.h"; sourceTree = "<group>"; };
-		9D2B3CF111870BFC8317A59DC56D6A3E /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = QueryKit/Expression.swift; sourceTree = "<group>"; };
-		9EF2F17F07C23AE03ACCCC49A419C858 /* KFAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFAttribute.m; path = KFData/Attribute/KFAttribute.m; sourceTree = "<group>"; };
-		A02B058B5821580F83B7F10CBE50C47C /* KFData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFData.xcconfig; sourceTree = "<group>"; };
+		83A765795A86664741551CA27826E604 /* KFData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFData-dummy.m"; sourceTree = "<group>"; };
+		8907BD584CC8BAA77FF0350DCC4F4CA9 /* KFDataStoreInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataStoreInternal.h; path = KFData/Store/KFDataStoreInternal.h; sourceTree = "<group>"; };
+		89F883EAC98E14D7F95DCBDDE01BA659 /* QKAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKAttribute.m; path = QueryKit/ObjectiveC/QKAttribute.m; sourceTree = "<group>"; };
+		8D5D8AB146BD37E5F18D3FA817923350 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D6380114A73791EC47CCD3628172072 /* KFDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataStore.m; path = KFData/Store/KFDataStore.m; sourceTree = "<group>"; };
+		946F3003833A0AF5DC21B8C4A8F2944B /* NSManagedObject+KFDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+KFDataManager.m"; path = "KFData/Manager/NSManagedObject+KFDataManager.m"; sourceTree = "<group>"; };
+		98D544821955CF021E79709AAFA8D60F /* KFDataTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataTableViewController.m; path = KFData/UI/KFDataTableViewController.m; sourceTree = "<group>"; };
+		98F9A56C43447052D300C28427C0F7A3 /* QKQuerySet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKQuerySet.m; path = QueryKit/ObjectiveC/QKQuerySet.m; sourceTree = "<group>"; };
+		99DC4B506C5193823EFD30CAE6AF0BA9 /* KFObjectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFObjectManager.m; path = KFData/Manager/KFObjectManager.m; sourceTree = "<group>"; };
+		9EB100F913075BBD6B10C4AD32985A40 /* KFAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFAttribute.h; path = KFData/Attribute/KFAttribute.h; sourceTree = "<group>"; };
+		A06F4D76F98651C264791F054F1A210B /* QKAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QKAttribute.h; path = QueryKit/ObjectiveC/QKAttribute.h; sourceTree = "<group>"; };
 		A0B34284C8E640C1C7C9BCF54C455899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AD82F311AED3F1AEDE6517F5D8D014 /* KFDataSingleStackStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataSingleStackStore.m; path = KFData/Store/KFDataSingleStackStore.m; sourceTree = "<group>"; };
+		A256DB246AE26C90F60B5C9FAE51478C /* QueryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QueryKit.modulemap; sourceTree = "<group>"; };
 		A43733633111A815CD2C26673AE3EE73 /* KFData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KFData.modulemap; sourceTree = "<group>"; };
 		A60993887187CAC46F25B11B47CDD310 /* Pods-Todo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todo-resources.sh"; sourceTree = "<group>"; };
-		AC664373FDC07814A245E17048EA87BE /* KFDataSearchTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataSearchTableViewController.m; path = KFData/UI/KFDataSearchTableViewController.m; sourceTree = "<group>"; };
-		B7D8BB676E093CD7C6B1270E60084626 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9F6EAC3384BBFC1BC2CFF1F3FEA604F /* KFDataStoreInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataStoreInternal.h; path = KFData/Store/KFDataStoreInternal.h; sourceTree = "<group>"; };
+		ACF3695A25151EE76CFF30DE2B2E99D6 /* QKQuerySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKQuerySet.swift; path = QueryKit/ObjectiveC/QKQuerySet.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBF25CFF0B9086F2DCB82462EDAB324B /* QueryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QueryKit-dummy.m"; sourceTree = "<group>"; };
+		BA87076C3C78E3BEB712AE04D7FEB84D /* KFData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFData.h; path = KFData/KFData.h; sourceTree = "<group>"; };
+		BBEAB169A04305ED4DC4BFE98AEC6CCD /* KFDataCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataCollectionViewController.h; path = KFData/UI/KFDataCollectionViewController.h; sourceTree = "<group>"; };
 		BD99B2E80CD2C342B06CD76616077745 /* Pods-Todo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Todo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BFAA732FAA76DAB87CC9C9D37530938C /* Pods-Todo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todo.modulemap"; sourceTree = "<group>"; };
+		C1C08BE1E3A6D7F52B0FFBEF720303EF /* NSManagedObjectContext+KFData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+KFData.m"; path = "KFData/Core/NSManagedObjectContext+KFData.m"; sourceTree = "<group>"; };
+		C78BF684C33E988EE064A3A34A05FA08 /* SortDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortDescriptor.swift; path = QueryKit/SortDescriptor.swift; sourceTree = "<group>"; };
+		CA3C359762243A8D99BFE036695D0B80 /* KFData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE61C892C045D864A33211DAE9E6DED /* Pods-Todo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todo-frameworks.sh"; sourceTree = "<group>"; };
-		D0A2E792D1EF55BBD16DBE0F460F83EB /* KFData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFData.h; path = KFData/KFData.h; sourceTree = "<group>"; };
+		CFB2C3BAD00B4493052112E990D20A4C /* KFData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFData.xcconfig; sourceTree = "<group>"; };
 		D16A2A07B61BA6F3A8D3394AA2473D59 /* Pods-Todo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todo-acknowledgements.plist"; sourceTree = "<group>"; };
-		D2D24B3E54EB98B7E91879AEF66886BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D7C961AF659409F59CBC8BA8F86B4D72 /* QueryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryKit.h; path = QueryKit/QueryKit.h; sourceTree = "<group>"; };
-		DF59E2CCD5720BE16C5C58F77F493618 /* KFData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFData-dummy.m"; sourceTree = "<group>"; };
-		E0DF3613388CEB982967441A3A277B31 /* QKQuerySet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKQuerySet.m; path = QueryKit/ObjectiveC/QKQuerySet.m; sourceTree = "<group>"; };
-		E5112C09DD16B98D1ACCA4CE74887949 /* NSManagedObjectContext+KFData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+KFData.m"; path = "KFData/Core/NSManagedObjectContext+KFData.m"; sourceTree = "<group>"; };
-		E5CBC03FC3C955CD05590C632EBDB835 /* QKQuerySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QKQuerySet.h; path = QueryKit/ObjectiveC/QKQuerySet.h; sourceTree = "<group>"; };
-		E6A4477754689C26D060DFCEC869ED1C /* KFDataDualStackStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataDualStackStore.m; path = KFData/Store/KFDataDualStackStore.m; sourceTree = "<group>"; };
-		E708DA18BA75742938B8998C26283F2D /* QueryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QueryKit.xcconfig; sourceTree = "<group>"; };
-		E78DBF148D9D8B4D6E6E92B7DE20A5BD /* KFObjectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFObjectManager.m; path = KFData/Manager/KFObjectManager.m; sourceTree = "<group>"; };
-		EDB1A362226F473DE98A68B575F5D82B /* KFDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFDataStore.m; path = KFData/Store/KFDataStore.m; sourceTree = "<group>"; };
-		F01C278888B18C50B087FB9A4F4475DD /* QueryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QueryKit.modulemap; sourceTree = "<group>"; };
+		D57F9E016EE055F6CA5D36FC15310687 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = QueryKit/Expression.swift; sourceTree = "<group>"; };
+		E70719282DEC0C343F7065D1CCE8CAD9 /* QueryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QueryKit.xcconfig; sourceTree = "<group>"; };
+		E9F040741D46094BCD52977F9AD0200D /* KFDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataStore.h; path = KFData/Store/KFDataStore.h; sourceTree = "<group>"; };
+		F11B025F9E069F576C52B0655071D8ED /* QueryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QueryKit-prefix.pch"; sourceTree = "<group>"; };
+		F3303E73DE111BA42CBE1AEC8C95A3C2 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = QueryKit/Attribute.swift; sourceTree = "<group>"; };
 		F541CF89911E9A6E2F2BBDA64B202613 /* Pods-Todo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todo-dummy.m"; sourceTree = "<group>"; };
-		FBF6761114D594FC30BB6E2D665B2D00 /* KFDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFDataStore.h; path = KFData/Store/KFDataStore.h; sourceTree = "<group>"; };
-		FD79FE26BE272D7D95F5BE2B2037E969 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = QueryKit/Attribute.swift; sourceTree = "<group>"; };
-		FE998C01C290240DDCBD2B1D3F808635 /* QKAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKAttribute.m; path = QueryKit/ObjectiveC/QKAttribute.m; sourceTree = "<group>"; };
+		FA9586C4CAAA6680C44AAB763B53C200 /* KFObjectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFObjectManager.h; path = KFData/Manager/KFObjectManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		431F8BCC7A295533B26CE09BAC80EED5 /* Frameworks */ = {
+		3B6BFBEB20A263B2781EB86EDECC6028 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A075A50C41D38528951346E50F48E46B /* CoreData.framework in Frameworks */,
-				560E52224DAAE26517849B83C71CF2C7 /* Foundation.framework in Frameworks */,
-				DBAA861DE5EE8FFE592AA60C58E0CB99 /* UIKit.framework in Frameworks */,
+				9D8550C7D643AAB26CFDE11091DB3EB6 /* CoreData.framework in Frameworks */,
+				277286084CE25B57D1F89E65B1F66DDC /* Foundation.framework in Frameworks */,
+				4702D3C2DCF07866121A32DF673D2263 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,11 +163,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B162649B287AF17516AEFEADB79E4065 /* Frameworks */ = {
+		B349E06E1DF4E11F4D9CAE6BF273A764 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D24E1D42E38F6CC6B2A56E847F19D4A /* Foundation.framework in Frameworks */,
+				31559480BD6644C81557399A9A726100 /* CoreData.framework in Frameworks */,
+				738C039622DD178624CB76B72DD6F8E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +178,9 @@
 		0B335310511ECB1FB6253FEC5E5C2E68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2121CEDA9C1253DA5EB96F6D65193EE8 /* KFData.framework */,
+				CA3C359762243A8D99BFE036695D0B80 /* KFData.framework */,
 				61A52CA75F359E186BBC41EC2A80EDFD /* Pods_Todo.framework */,
-				56304100D3E3E6B63F50E030F643D46C /* QueryKit.framework */,
+				79A6305BC43526E91FDC3B5275F40936 /* QueryKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,54 +196,27 @@
 		178387449AE9D072FCFD8AA68628481B /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				E6A4477754689C26D060DFCEC869ED1C /* KFDataDualStackStore.m */,
-				4178F4B64635F73E0BBC7FABFE1E7584 /* KFDataSingleStackStore.m */,
-				FBF6761114D594FC30BB6E2D665B2D00 /* KFDataStore.h */,
-				EDB1A362226F473DE98A68B575F5D82B /* KFDataStore.m */,
-				B9F6EAC3384BBFC1BC2CFF1F3FEA604F /* KFDataStoreInternal.h */,
+				6F876451A0153D5738CD4AE086357D2B /* KFDataDualStackStore.m */,
+				A1AD82F311AED3F1AEDE6517F5D8D014 /* KFDataSingleStackStore.m */,
+				E9F040741D46094BCD52977F9AD0200D /* KFDataStore.h */,
+				8D6380114A73791EC47CCD3628172072 /* KFDataStore.m */,
+				8907BD584CC8BAA77FF0350DCC4F4CA9 /* KFDataStoreInternal.h */,
 			);
 			name = Store;
 			sourceTree = "<group>";
 		};
-		1ECFD7B4EE9FEB0B8BB061F6471BCA9D /* Swift */ = {
+		21C56FB3820ABD92583B2A4777DE0B3B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD79FE26BE272D7D95F5BE2B2037E969 /* Attribute.swift */,
-				9D2B3CF111870BFC8317A59DC56D6A3E /* Expression.swift */,
-				7EFCC9279AA3C746F0873F8E8D2D2F63 /* Predicate.swift */,
+				7C5C0F28DEFA753F59C1B85C8129B938 /* Info.plist */,
+				A256DB246AE26C90F60B5C9FAE51478C /* QueryKit.modulemap */,
+				E70719282DEC0C343F7065D1CCE8CAD9 /* QueryKit.xcconfig */,
+				4C42B75E57AF28486B20E8FD23B40F51 /* QueryKit-dummy.m */,
+				F11B025F9E069F576C52B0655071D8ED /* QueryKit-prefix.pch */,
+				2BB14E0FCBEC4A58A74709FA8CDF0F97 /* QueryKit-umbrella.h */,
 			);
-			name = Swift;
-			sourceTree = "<group>";
-		};
-		24674E7A8191FA683CB3D33AE548C2CE /* Attribute */ = {
-			isa = PBXGroup;
-			children = (
-				C4A712EC72C5FDEE13D6680C3B4D02B9 /* Bridge */,
-				C5E966E5B1EE070286634F5BC180049B /* ObjectiveC */,
-				1ECFD7B4EE9FEB0B8BB061F6471BCA9D /* Swift */,
-			);
-			name = Attribute;
-			sourceTree = "<group>";
-		};
-		290D71D78A639099A25D8640B78C08CD /* QueryKit */ = {
-			isa = PBXGroup;
-			children = (
-				D7C961AF659409F59CBC8BA8F86B4D72 /* QueryKit.h */,
-				24674E7A8191FA683CB3D33AE548C2CE /* Attribute */,
-				29151DA0C7994C5443269F7E96BA2CFE /* QuerySet */,
-				B5E63D714C57B5AC64E361A9D129423F /* Support Files */,
-			);
-			path = QueryKit;
-			sourceTree = "<group>";
-		};
-		29151DA0C7994C5443269F7E96BA2CFE /* QuerySet */ = {
-			isa = PBXGroup;
-			children = (
-				E4E5F85F5AECD55172D5F6B3D648B974 /* Bridge */,
-				91368F4409FAD383FFB71789207A77ED /* ObjectiveC */,
-				EA010FED0BEAFC8564BE52FE96182D0F /* Swift */,
-			);
-			name = QuerySet;
+			name = "Support Files";
+			path = "../Target Support Files/QueryKit";
 			sourceTree = "<group>";
 		};
 		2AF9CDAE4037657F58758957F6ABC87A /* Targets Support Files */ = {
@@ -255,10 +232,10 @@
 			children = (
 				A0B34284C8E640C1C7C9BCF54C455899 /* Info.plist */,
 				A43733633111A815CD2C26673AE3EE73 /* KFData.modulemap */,
-				A02B058B5821580F83B7F10CBE50C47C /* KFData.xcconfig */,
-				DF59E2CCD5720BE16C5C58F77F493618 /* KFData-dummy.m */,
+				CFB2C3BAD00B4493052112E990D20A4C /* KFData.xcconfig */,
+				83A765795A86664741551CA27826E604 /* KFData-dummy.m */,
 				55B18D45D67B97EB7BE721E332BF9DE4 /* KFData-prefix.pch */,
-				623164760BB9ECCFAD2B77AA1771212F /* KFData-umbrella.h */,
+				0DD643CE0FD7A04F57DCF1E0FE1F8EB9 /* KFData-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KFData";
@@ -267,28 +244,61 @@
 		308B45F2F07CC963AF25DC258667796F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				2EB43E1847C9EC12E5272F74278D2B16 /* KFDataCollectionViewController.h */,
-				787B8AAA62FE21F519013E4C4D52F15F /* KFDataCollectionViewController.m */,
-				4DAAE517A6FF64B1D9F3449A9E82E36B /* KFDataCollectionViewDataSource.h */,
-				2499BADA10B6BF0BD8875567F23FDD10 /* KFDataCollectionViewDataSource.m */,
-				8D60CE2AE2BF368625A9706FC7276F0A /* KFDataSearchTableViewController.h */,
-				AC664373FDC07814A245E17048EA87BE /* KFDataSearchTableViewController.m */,
-				35193ED63FEDDB2DEF1D3236ADC58C0C /* KFDataTableViewController.h */,
-				5068A0C6BBB661EBB368EB10D1D62707 /* KFDataTableViewController.m */,
-				02AFD736646C87EE7A199A389889A827 /* KFDataTableViewDataSource.h */,
-				5D7E08889C4D1D8B18AFD207EC18756E /* KFDataTableViewDataSource.m */,
-				38C34314E85A6DD2438250B0862995AA /* KFDataUI.h */,
+				BBEAB169A04305ED4DC4BFE98AEC6CCD /* KFDataCollectionViewController.h */,
+				5D6F70B5A992CCD4B4540532A554EE5E /* KFDataCollectionViewController.m */,
+				4A93CE79015133BFB92288CB853FD025 /* KFDataCollectionViewDataSource.h */,
+				12F33B15FD62FECA664C0AB72158EB92 /* KFDataCollectionViewDataSource.m */,
+				7642D0350A38D59A20C3A03A3956A8A4 /* KFDataSearchTableViewController.h */,
+				5F8EE879AB04E14B5FC3A4EDCD4B7114 /* KFDataSearchTableViewController.m */,
+				727BE7A8055DAD0C25F0CA178F1260A3 /* KFDataTableViewController.h */,
+				98D544821955CF021E79709AAFA8D60F /* KFDataTableViewController.m */,
+				2F9377A40A76AB12704DE06C93E1553D /* KFDataTableViewDataSource.h */,
+				5B8F0C8B585ED60899E00799A74B1272 /* KFDataTableViewDataSource.m */,
+				62B7DD9A0B4C6AF18A8AB9E0324D33E6 /* KFDataUI.h */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		3DB58EDBCDF760261F55615C7FAF5F0D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				0519C7078CD31D1860569C7DB7DA8C80 /* QKAttribute.swift */,
+				ACF3695A25151EE76CFF30DE2B2E99D6 /* QKQuerySet.swift */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		41534717F1EBC9DC1C2A226229E796FD /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				A06F4D76F98651C264791F054F1A210B /* QKAttribute.h */,
+				89F883EAC98E14D7F95DCBDDE01BA659 /* QKAttribute.m */,
+				7AFF60CCB8F67F5D2F60C75451E80A65 /* QKQuerySet.h */,
+				98F9A56C43447052D300C28427C0F7A3 /* QKQuerySet.m */,
+				32E34681E33DE7A19BB043D4752185F0 /* QueryKit.h */,
+			);
+			name = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		62C2893D16700B19A61BC51369EF4EDF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F3303E73DE111BA42CBE1AEC8C95A3C2 /* Attribute.swift */,
+				D57F9E016EE055F6CA5D36FC15310687 /* Expression.swift */,
+				8168D5888ED837E27428C0BEB1DEE138 /* Predicate.swift */,
+				574E525D73A3D3FA8FCFA0092150E8C0 /* QuerySet.swift */,
+				C78BF684C33E988EE064A3A34A05FA08 /* SortDescriptor.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 		6F69037A7F9FA494EDB2BE404197AACB /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				584C0B58AA0ECDF13305AF9A88200BB0 /* KFObjectManager.h */,
-				E78DBF148D9D8B4D6E6E92B7DE20A5BD /* KFObjectManager.m */,
-				14B5262FB0BAAF1EEFB7D68C4FD89EDB /* NSManagedObject+KFDataManager.h */,
-				67E4116035B7B39784BE924779C79FCD /* NSManagedObject+KFDataManager.m */,
+				FA9586C4CAAA6680C44AAB763B53C200 /* KFObjectManager.h */,
+				99DC4B506C5193823EFD30CAE6AF0BA9 /* KFObjectManager.m */,
+				6BA7304492BFA62F48EE50CE4903D137 /* NSManagedObject+KFDataManager.h */,
+				946F3003833A0AF5DC21B8C4A8F2944B /* NSManagedObject+KFDataManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -304,21 +314,23 @@
 			);
 			sourceTree = "<group>";
 		};
-		91368F4409FAD383FFB71789207A77ED /* ObjectiveC */ = {
+		8D4A40B10751661BE9BB8A4660CF5AE2 /* QueryKit */ = {
 			isa = PBXGroup;
 			children = (
-				E5CBC03FC3C955CD05590C632EBDB835 /* QKQuerySet.h */,
-				E0DF3613388CEB982967441A3A277B31 /* QKQuerySet.m */,
+				3DB58EDBCDF760261F55615C7FAF5F0D /* Bridge */,
+				41534717F1EBC9DC1C2A226229E796FD /* ObjectiveC */,
+				21C56FB3820ABD92583B2A4777DE0B3B /* Support Files */,
+				62C2893D16700B19A61BC51369EF4EDF /* Swift */,
 			);
-			name = ObjectiveC;
+			path = QueryKit;
 			sourceTree = "<group>";
 		};
 		919DAD2F6DC02E09A8DA211347DF40F6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D0A2E792D1EF55BBD16DBE0F460F83EB /* KFData.h */,
-				970E163F4DFAD6D8725E0D9652248582 /* NSManagedObjectContext+KFData.h */,
-				E5112C09DD16B98D1ACCA4CE74887949 /* NSManagedObjectContext+KFData.m */,
+				BA87076C3C78E3BEB712AE04D7FEB84D /* KFData.h */,
+				52A0425C03D8EFAC26FB014531317992 /* NSManagedObjectContext+KFData.h */,
+				C1C08BE1E3A6D7F52B0FFBEF720303EF /* NSManagedObjectContext+KFData.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -327,7 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				ADF7E710283DEC2F6A83A01759A8FFC3 /* KFData */,
-				290D71D78A639099A25D8640B78C08CD /* QueryKit */,
+				8D4A40B10751661BE9BB8A4660CF5AE2 /* QueryKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -345,42 +357,11 @@
 			path = KFData;
 			sourceTree = "<group>";
 		};
-		B5E63D714C57B5AC64E361A9D129423F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7D8BB676E093CD7C6B1270E60084626 /* Info.plist */,
-				F01C278888B18C50B087FB9A4F4475DD /* QueryKit.modulemap */,
-				E708DA18BA75742938B8998C26283F2D /* QueryKit.xcconfig */,
-				BBF25CFF0B9086F2DCB82462EDAB324B /* QueryKit-dummy.m */,
-				56ECD3A24888781325134B59368632F0 /* QueryKit-prefix.pch */,
-				600F3836B88ED7EBE46E659A1F1937D9 /* QueryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QueryKit";
-			sourceTree = "<group>";
-		};
-		C4A712EC72C5FDEE13D6680C3B4D02B9 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				0775DDF196A66AD48990954E31B31DD8 /* QKAttribute.swift */,
-			);
-			name = Bridge;
-			sourceTree = "<group>";
-		};
-		C5E966E5B1EE070286634F5BC180049B /* ObjectiveC */ = {
-			isa = PBXGroup;
-			children = (
-				1563ECD9BF3D6153B93082E492F65A0A /* QKAttribute.h */,
-				FE998C01C290240DDCBD2B1D3F808635 /* QKAttribute.m */,
-			);
-			name = ObjectiveC;
-			sourceTree = "<group>";
-		};
 		E0544136EB35840FF1BA81814E1D7878 /* Attribute */ = {
 			isa = PBXGroup;
 			children = (
-				7984268CE8FBF17F2C09AFD025A7B8C8 /* KFAttribute.h */,
-				9EF2F17F07C23AE03ACCCC49A419C858 /* KFAttribute.m */,
+				9EB100F913075BBD6B10C4AD32985A40 /* KFAttribute.h */,
+				24A0C8C0E0D44457E1ADDFC0180CF726 /* KFAttribute.m */,
 			);
 			name = Attribute;
 			sourceTree = "<group>";
@@ -388,19 +369,11 @@
 		E3778F5362B3FDFC4A95AAEF09C26B55 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				720EBCA47221200BFEAF440B8F071ED6 /* CoreData.framework */,
-				83408B47438BDCBD3077C37B671086CA /* Foundation.framework */,
-				D2D24B3E54EB98B7E91879AEF66886BC /* UIKit.framework */,
+				64D1CD212EF83B839B8FA439777E88C1 /* CoreData.framework */,
+				05237738F16E0BE22E558871158AA68D /* Foundation.framework */,
+				8D5D8AB146BD37E5F18D3FA817923350 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E4E5F85F5AECD55172D5F6B3D648B974 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				5F471A3DF0FAC519747232952AE62F17 /* QKQuerySet.swift */,
-			);
-			name = Bridge;
 			sourceTree = "<group>";
 		};
 		E9170F35DD7E56192E327E06C074168C /* Pods-Todo */ = {
@@ -421,35 +394,38 @@
 			path = "Target Support Files/Pods-Todo";
 			sourceTree = "<group>";
 		};
-		EA010FED0BEAFC8564BE52FE96182D0F /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				7C48E5FCC0BA6B05FB80E6A7153B1853 /* QuerySet.swift */,
-			);
-			name = Swift;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AA489A86CA56466D083D129DAF497015 /* Headers */ = {
+		2EB1F646FA27CBBD9AF3ED4A1C974235 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD245A43483165D83A069F05A5340916 /* KFAttribute.h in Headers */,
-				F20EFC3637CCB465F320F211CB4A8826 /* KFData-umbrella.h in Headers */,
-				4C545C646DB0A5D0F3B0D9B8900107FE /* KFData.h in Headers */,
-				EACB5E437F6845A2F34CA8B19E478706 /* KFDataCollectionViewController.h in Headers */,
-				B9E1E080262D309A8B4AD25480F74A40 /* KFDataCollectionViewDataSource.h in Headers */,
-				C1A69BD3E8723E9D91EF9A7B814AC876 /* KFDataSearchTableViewController.h in Headers */,
-				9C24F3ED1A579875BA16895CFBBE7772 /* KFDataStore.h in Headers */,
-				4D0E1790F50CA760C741FC7E74FFB12D /* KFDataStoreInternal.h in Headers */,
-				C04458A960C90CECC3A76CC3471F558B /* KFDataTableViewController.h in Headers */,
-				9A2443766DC5012FC7BB0D43F3A1B6AA /* KFDataTableViewDataSource.h in Headers */,
-				2097337DFAFFECC2EC3180D78BD1AD43 /* KFDataUI.h in Headers */,
-				A8E485FDE36992979381F911A7023A9A /* KFObjectManager.h in Headers */,
-				F5A0AFC924E71359B6FD95CE64F91C2A /* NSManagedObject+KFDataManager.h in Headers */,
-				FC615D4F5D3BA3F7F0BA2072245233B1 /* NSManagedObjectContext+KFData.h in Headers */,
+				A85924382B64115CCBEDC69DDC728886 /* KFAttribute.h in Headers */,
+				1DEEA4689782964CD8CB96429185E904 /* KFData-umbrella.h in Headers */,
+				D626855149068FA0A26E7EAB514D0CE4 /* KFData.h in Headers */,
+				1A7E8B5665062D45D5574D8F0EB756B1 /* KFDataCollectionViewController.h in Headers */,
+				9C27CC88DF7C9C9653D1AD4FAF37284D /* KFDataCollectionViewDataSource.h in Headers */,
+				411FA43EAB66320A1AF0751A0C926255 /* KFDataSearchTableViewController.h in Headers */,
+				EFEB43A8B6E12BAA7AA7BAA0B6A1F014 /* KFDataStore.h in Headers */,
+				F481F14980FF37C2F1002C0D8011D2C2 /* KFDataStoreInternal.h in Headers */,
+				CDE1459AAC00FFD0F502FF54EBA100D1 /* KFDataTableViewController.h in Headers */,
+				1B6173E14A934BAA8CAE2851B65B0CC1 /* KFDataTableViewDataSource.h in Headers */,
+				F95A23B105B7FE033F7E24FF889EFAEC /* KFDataUI.h in Headers */,
+				1E283C6DC394A89268ED6278D124FF9D /* KFObjectManager.h in Headers */,
+				C31CB9E3703350A55639AF5D26B6DEB7 /* NSManagedObject+KFDataManager.h in Headers */,
+				4AF2B2B8D41E6B6B7ADC2EBA74F73EE1 /* NSManagedObjectContext+KFData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49104A4A2B1EC22DEFE79E587FB5EE22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DB3FC0FCA036C8B5EF72914EB77A45 /* QKAttribute.h in Headers */,
+				11BAC80CEA2448046C65B021A5441C63 /* QKQuerySet.h in Headers */,
+				D135CEE9A04D50440A09900B68319564 /* QueryKit-umbrella.h in Headers */,
+				5C290A65A2E0C5BCCCA2DD18607C0180 /* QueryKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,44 +437,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE5C7B37227947EC4E702591D3EA378C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2656A9CF84850E32A538F732538096E6 /* QKAttribute.h in Headers */,
-				A182E4FFE77C493A70B8541ABECF1A4C /* QKQuerySet.h in Headers */,
-				29F70FB82BAF934E0E8A7C2085591BE7 /* QueryKit-umbrella.h in Headers */,
-				4FAEB0E8C4E67C83E8305FEFF2A3784F /* QueryKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B5C0F00A97DD144815B8122C4C01990 /* KFData */ = {
+		1C71A7DCFCE53DE730223C76D5338D13 /* QueryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8C63F9E51008122963AC3FDE2ED5A82 /* Build configuration list for PBXNativeTarget "KFData" */;
+			buildConfigurationList = 9DCEEF76F04B97C7CE4DCF62CEE3AB37 /* Build configuration list for PBXNativeTarget "QueryKit" */;
 			buildPhases = (
-				8E6503092FEC9BA6E31950723212985E /* Sources */,
-				431F8BCC7A295533B26CE09BAC80EED5 /* Frameworks */,
-				AA489A86CA56466D083D129DAF497015 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KFData;
-			productName = KFData;
-			productReference = 2121CEDA9C1253DA5EB96F6D65193EE8 /* KFData.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A72E6978FF42E92921FCA48B46D84EEC /* QueryKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E51E69535FC703BB84D120059F3EEEF /* Build configuration list for PBXNativeTarget "QueryKit" */;
-			buildPhases = (
-				3BACAC86695FF09F757D3FB1D21DEFBA /* Sources */,
-				B162649B287AF17516AEFEADB79E4065 /* Frameworks */,
-				FE5C7B37227947EC4E702591D3EA378C /* Headers */,
+				89BC6AA0074E38D1EBE3D57A169D9DA8 /* Sources */,
+				B349E06E1DF4E11F4D9CAE6BF273A764 /* Frameworks */,
+				49104A4A2B1EC22DEFE79E587FB5EE22 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -506,7 +454,7 @@
 			);
 			name = QueryKit;
 			productName = QueryKit;
-			productReference = 56304100D3E3E6B63F50E030F643D46C /* QueryKit.framework */;
+			productReference = 79A6305BC43526E91FDC3B5275F40936 /* QueryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BCFA54B73E9B322D1EB3BA49FB06DB99 /* Pods-Todo */ = {
@@ -520,12 +468,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				2035DBC6F96965FB2C1B39B2062DA82E /* PBXTargetDependency */,
-				2A91229E6A2E26E548909D26C58CC622 /* PBXTargetDependency */,
+				21E3D6D35B8D597985ABAA9243100790 /* PBXTargetDependency */,
+				62B8A815317F7312C2485E5B9A058AE6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Todo";
 			productName = "Pods-Todo";
 			productReference = 61A52CA75F359E186BBC41EC2A80EDFD /* Pods_Todo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C70C3A4ED9E0D9F5CDD01EDF5ED43378 /* KFData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D734A339704B573468CF277DCA01E88 /* Build configuration list for PBXNativeTarget "KFData" */;
+			buildPhases = (
+				A6E8C487DBCC6DEF2EB9B97A10C97F4D /* Sources */,
+				3B6BFBEB20A263B2781EB86EDECC6028 /* Frameworks */,
+				2EB1F646FA27CBBD9AF3ED4A1C974235 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFData;
+			productName = KFData;
+			productReference = CA3C359762243A8D99BFE036695D0B80 /* KFData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -549,47 +514,48 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B5C0F00A97DD144815B8122C4C01990 /* KFData */,
+				C70C3A4ED9E0D9F5CDD01EDF5ED43378 /* KFData */,
 				BCFA54B73E9B322D1EB3BA49FB06DB99 /* Pods-Todo */,
-				A72E6978FF42E92921FCA48B46D84EEC /* QueryKit */,
+				1C71A7DCFCE53DE730223C76D5338D13 /* QueryKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BACAC86695FF09F757D3FB1D21DEFBA /* Sources */ = {
+		89BC6AA0074E38D1EBE3D57A169D9DA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB47DD1CE4E88C301B9D3D93DEF19D0E /* Attribute.swift in Sources */,
-				4F0B25DB69E48B48874FA93F65B99092 /* Expression.swift in Sources */,
-				71F74E01F96C021473B061C7A192DC3B /* Predicate.swift in Sources */,
-				001992C6F48F8C1CA45843EEA50019F2 /* QKAttribute.m in Sources */,
-				085128B95CC74EB45D1A0D527CF16F1B /* QKAttribute.swift in Sources */,
-				F9B097E299202C561D12AFD42EBE35D5 /* QKQuerySet.m in Sources */,
-				6ED7CD667F1FB5E43247AE9B419F3A4A /* QKQuerySet.swift in Sources */,
-				A10ECD57E5F9D1B35C6B11121C9D53F7 /* QueryKit-dummy.m in Sources */,
-				8E3BD96CAD5B3C7FF418464A184FA560 /* QuerySet.swift in Sources */,
+				15DBE985F65939F5B63BE7504ED82C54 /* Attribute.swift in Sources */,
+				32C523CF3AB63A200EC14111B687EACB /* Expression.swift in Sources */,
+				8A3BA08C9FE59AAB8516C6F6BF3BE19A /* Predicate.swift in Sources */,
+				24BFC16D724DEE8BE91457C3B9B48E65 /* QKAttribute.m in Sources */,
+				7ECA0EA4D8669AFC7760137F9D60FAEE /* QKAttribute.swift in Sources */,
+				5AC09DB5BB5FCCF6DB818887512C51AD /* QKQuerySet.m in Sources */,
+				CF6A98667A909632BCE8FE404DC8AF87 /* QKQuerySet.swift in Sources */,
+				4EE53A4ED69792E47920F61F79D6FAEC /* QueryKit-dummy.m in Sources */,
+				0542174FDDF8F6EA81DB805A7AEB6DAC /* QuerySet.swift in Sources */,
+				6822839A473617B89A96E96F14880528 /* SortDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E6503092FEC9BA6E31950723212985E /* Sources */ = {
+		A6E8C487DBCC6DEF2EB9B97A10C97F4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D996C99E6E278774B7CA9FD83A8629D /* KFAttribute.m in Sources */,
-				BD1AAB64E5480557471C8138454F7E4F /* KFData-dummy.m in Sources */,
-				2CD50C3EFA6AF5B5ACF48FC262FDD78B /* KFDataCollectionViewController.m in Sources */,
-				422A201ECA42EC943F7DB5CA69722B25 /* KFDataCollectionViewDataSource.m in Sources */,
-				ABE731FA27766A5F3478F5D48DEC887C /* KFDataDualStackStore.m in Sources */,
-				7205F678E36FFDF6A2C66392EFD23D36 /* KFDataSearchTableViewController.m in Sources */,
-				D7E9B79E7BD0975BC9BB14D68348B1B2 /* KFDataSingleStackStore.m in Sources */,
-				F9E0664BDAC0A6273A77D341C66A8B01 /* KFDataStore.m in Sources */,
-				DBAA12F41CA955F53DE36CF67F2DE025 /* KFDataTableViewController.m in Sources */,
-				EB333F2B5010B7E0C983F1DECEB95E6A /* KFDataTableViewDataSource.m in Sources */,
-				86999F96E9920CA9695BA5C58BD8D4EF /* KFObjectManager.m in Sources */,
-				B85BF1D830EB326818A452FFBB6130ED /* NSManagedObject+KFDataManager.m in Sources */,
-				7E1C90BB80BDC58A0ECC92437F4AFA8F /* NSManagedObjectContext+KFData.m in Sources */,
+				D1E6FE5F7B74D7122EF6932A739C91EC /* KFAttribute.m in Sources */,
+				249818C4C93A5C8A8C120FA4CD550171 /* KFData-dummy.m in Sources */,
+				CA82E454AD7D07C94476F8BE825AF362 /* KFDataCollectionViewController.m in Sources */,
+				7001B8D22C72B38F15A10DF3F92A811E /* KFDataCollectionViewDataSource.m in Sources */,
+				9BFE42B12FB627F85F445511B253D637 /* KFDataDualStackStore.m in Sources */,
+				8CC9D1E7E6AB70F8D78D805D890725B6 /* KFDataSearchTableViewController.m in Sources */,
+				8B0C583AA51C289445F4FB69FB33C034 /* KFDataSingleStackStore.m in Sources */,
+				06DF92283E858F046DE5103DAB308F24 /* KFDataStore.m in Sources */,
+				2BA95EBE9D59D7419923248E4415C7E7 /* KFDataTableViewController.m in Sources */,
+				AF3760290C1F74173CD946E1D2482088 /* KFDataTableViewDataSource.m in Sources */,
+				AAB2A848D2BAF050ED9497E98C98F56A /* KFObjectManager.m in Sources */,
+				EFCECC6E9B969E33932946E676EAEE2B /* NSManagedObject+KFDataManager.m in Sources */,
+				1F73CC2613B43ACB8FC78DC2424168B0 /* NSManagedObjectContext+KFData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,79 +570,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2035DBC6F96965FB2C1B39B2062DA82E /* PBXTargetDependency */ = {
+		21E3D6D35B8D597985ABAA9243100790 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KFData;
-			target = 2B5C0F00A97DD144815B8122C4C01990 /* KFData */;
-			targetProxy = EA804738001249E955BF1358CAD7C86B /* PBXContainerItemProxy */;
+			target = C70C3A4ED9E0D9F5CDD01EDF5ED43378 /* KFData */;
+			targetProxy = 785E115A8F906C86B6A3C9B878FF5BCA /* PBXContainerItemProxy */;
 		};
-		2A91229E6A2E26E548909D26C58CC622 /* PBXTargetDependency */ = {
+		62B8A815317F7312C2485E5B9A058AE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QueryKit;
-			target = A72E6978FF42E92921FCA48B46D84EEC /* QueryKit */;
-			targetProxy = 994E909F0F3AD777F2C183A7B1E38A3A /* PBXContainerItemProxy */;
+			target = 1C71A7DCFCE53DE730223C76D5338D13 /* QueryKit */;
+			targetProxy = 4FB9DA6BF7BD63BF1A3253699B128158 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10F8BFEDACD7000F0A1E12D168B30188 /* Debug */ = {
+		73D62A498209AB32D7703A829511A995 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E708DA18BA75742938B8998C26283F2D /* QueryKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.11.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.11.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QueryKit/QueryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QueryKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QueryKit/QueryKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QueryKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1443F99813D38BF3EC06029C5FA4A830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A02B058B5821580F83B7F10CBE50C47C /* KFData.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KFData/KFData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFData/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KFData/KFData.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KFData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		25BC509517CE8702DDD13DEB96244B64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A02B058B5821580F83B7F10CBE50C47C /* KFData.xcconfig */;
+			baseConfigurationReference = CFB2C3BAD00B4493052112E990D20A4C /* KFData.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.3;
@@ -740,9 +651,9 @@
 			};
 			name = Debug;
 		};
-		CB78DB85CB28C3E6BD0B47A8A8ADE5ED /* Release */ = {
+		CBCB186317DCB78BAA67D935D255DCEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E708DA18BA75742938B8998C26283F2D /* QueryKit.xcconfig */;
+			baseConfigurationReference = E70719282DEC0C343F7065D1CCE8CAD9 /* QueryKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.11.0;
@@ -791,6 +702,61 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D88BFBDACC5649C806884FED1876A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70719282DEC0C343F7065D1CCE8CAD9 /* QueryKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.11.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.11.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QueryKit/QueryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QueryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QueryKit/QueryKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QueryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2B8FA2267F121CC4B2C661A09E526FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB2C3BAD00B4493052112E990D20A4C /* KFData.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KFData/KFData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFData/KFData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KFData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -872,11 +838,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E51E69535FC703BB84D120059F3EEEF /* Build configuration list for PBXNativeTarget "QueryKit" */ = {
+		8D734A339704B573468CF277DCA01E88 /* Build configuration list for PBXNativeTarget "KFData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10F8BFEDACD7000F0A1E12D168B30188 /* Debug */,
-				CB78DB85CB28C3E6BD0B47A8A8ADE5ED /* Release */,
+				E2B8FA2267F121CC4B2C661A09E526FE /* Debug */,
+				73D62A498209AB32D7703A829511A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCEEF76F04B97C7CE4DCF62CEE3AB37 /* Build configuration list for PBXNativeTarget "QueryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BFBDACC5649C806884FED1876A1D8 /* Debug */,
+				CBCB186317DCB78BAA67D935D255DCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -886,15 +861,6 @@
 			buildConfigurations = (
 				CE79BD163204DEDA1D69AAC0E9B0D165 /* Debug */,
 				EA1E8D666FA53B91B7F8F46DF844CEA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8C63F9E51008122963AC3FDE2ED5A82 /* Build configuration list for PBXNativeTarget "KFData" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1443F99813D38BF3EC06029C5FA4A830 /* Debug */,
-				25BC509517CE8702DDD13DEB96244B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
